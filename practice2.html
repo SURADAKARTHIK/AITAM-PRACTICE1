@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+        <legend><h1><b>USER REGISTERATION FORM</b></h1></legend>
+        <fieldset>
+        <legend><h2><b>Personal Information</b></h2></legend>
+        <label for="name">FULL NAME:</label>
+        <input type="text" name="name" placeholder="Enter Your Full Name" id="name"/>
+        <br>
+        <br>
+        <label for="name">FATHER NAME:</label>
+        <input type="text" name="name" placeholder="Enter Your Father Name" id="name"/>
+        <br>
+        <br>
+        <label for="name">MOTHER NAME:</label>
+        <input type="text" name="name" placeholder="Enter Your Mother Name" id="name"/>
+        <br>
+        <br>
+        <label for="email">EMAIL ID:</label>
+        <input type="email" name="email" placeholder="Enter Your Email Address" id="email"/>
+        <br>
+        <br>
+        <label for="password">PASSWORD:</label>
+        <input type="password" name="password" placeholder="Enter Your Password" id="password"/>
+        <br>
+        <br>
+        <label for="password">CONFIRM PASSWORD:</label>
+        <input type="password" name="password" placeholder="Please, Confirm Your password" id="password"/>
+        <br>
+        <br>
+        <label for="mobileNo">MOBILE NUMBER:</label>
+        <input type="tel" name="mobileNo" placeholder="Enter Your Contact Number" id="mobileNo" pattern="[0-9]{10}" maxlength="10" required/>
+        <br>
+        <br>
+        <label for="date">DATE OF BIRTH:</label>
+        <input type="date" name="date" id="date"/>
+        <br>
+        <br>
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" />MALE
+        <input type="radio" name="gender" />FEMALE
+        <br>
+        <br>
+        <button type="correct">CORRECT</button>
+    </fieldset> 
+    <fieldset>
+        <legend><h2><b>Educational Details</b></h2></legend>
+        <label for="name">COURSE:</label>
+        <input type="text" name="name" placeholder="Enter Your Course" id="name">
+        <br>
+        <br>
+        <label for="name">INSTITUTE NAME:</label>
+        <input type="text" name="name" placeholder="Enter Your Institute Name" id="name">
+        <br>
+        <br>
+        <label>AFFILIATED TO:</label>
+        <select name="University">
+            <option value="JNTUK">JNTUK</option>
+            <option value="JNTUA">JNTUA</option>
+            <option value="JNTUGV">JNTUGV</option>
+        </select>
+        <br>
+        <br>
+        <label>BRANCH:</label>
+        <select name="BRANCH">
+            <option value="CSE">CSE</option>
+            <option value="CSM">CSM</option>
+            <option value="CSD">CSD</option>
+            <option value="IT">IT</option>
+            <option value="ECE">ECE</option>
+            <option value="EEE">EEE</option>
+            <option value="MECH">MECH</option>
+            <option value="CIVIL">CIVIL</option>
+        </select>
+        <br>
+        <br>
+        <label for="rollNumber">ROLL NUMBER:</label>
+        <input type="text" name="rollNumber" placeholder="Enter Your Registered Number" id="rollNumber" pattern="[A-Za-z0-9]+" maxlength="10" required/>
+        <br>
+        <br>
+        <button type="correct">CORRECT</button>
+    </fieldset>
+    <fieldset>
+    <legend><h2><b>Contact Address</b></h2></legend>
+    <label for="doorNumber">DOOR NUMBER:</label>
+    <input type="text" name="doorNumber" placeholder="Enter Your Door NUmber" id="doorNumber"/>
+    <br>
+    <br>
+    <label for="streetName">STREET/VILLAGE NAME:</label>
+    <input type="text" name="streetName" placeholder="Enter Your Stree/Village Name" id="streetName"/>
+    <br>
+    <br>
+    <label for="mandaltName">MANDAL NAME:</label>
+    <input type="text" name="mandaltName" placeholder="Enter Your Mandal Name" id="mandaltName"/>
+    <br>
+    <br>
+    <label>SELECT DISTRICT:</label>
+        <select name="DISTRICTS">
+            <option value="Anantapur">Anantapur</option>
+            <option value="Chittoor">Chittoor</option>
+            <option value="East Godavari">East Godavari</option>
+            <option value="Guntur">Guntur</option>
+            <option value="Kadapa">Kadapa</option>
+            <option value="Krishna">Krishna</option>
+            <option value="Kurnool">Kurnool</option>
+            <option value="Nellore">Nellore</option>
+            <option value="Srikakulam">Srikakulam</option>
+            <option value="Visakhapatnam">Visakhapatnam</option>
+            <option value="West Godavari">West Godavari</option>
+        </select>
+        <br>
+        <br>
+        <label>SELECT STATE:</label>
+        <select name="STATES">
+            <option value="Bihar">Bihar</option>
+            <option value="Nagaland">Nagaland</option>
+            <option value="Punjab">Punjab</option>
+            <option value="Rajasthan">Rajasthan</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Odisha">Odisha</option>
+            <option value="Sikkim">Sikkim</option>
+            <option value="Himachal Pradesh">Himachal Pradesh</option>
+            <option value="Kerala">Kerala</option>
+            <option value="Goa">Goa</option>
+            <option value="Haryana">Haryana</option>
+            <option value="Chhattisgarh">Chhattisgarh</option>
+            <option value="Tamil Nadu">Tamil Nadu</option>
+            <option value="Jharkhand">Jharkhand</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Tripura">Tripura</option>
+            <option value="Telangana">Telangana</option>
+            <option value="Uttarakhand">Uttarakhand</option>
+            <option value="Andehra pradesh">Andehra pradesh</option>
+        </select>
+        <br>
+        <br>
+        <label for="pincode">PINCODE:</label>
+        <input type="text" name="pincode" placeholder="Enter Your District Pincode" id="pincode" pattern="[0-9]{6}" maxlength="6" required/>
+        <br>
+        <br>
+        <button type="correct">CORRECT</button>
+    </fieldset> 
+    <fieldset>
+        <legend><h2><b>Preferences</b></h2></legend>
+        <label>PREFERENCE MODE OF CONTACT:</label>
+        <input type="checkbox" name="contact" id="emailContact" value="email"/>
+        <label for="emailContact">EMAIL</label>
+        <input type="checkbox" name="contact" id="phoneContact" value="phone"/>
+        <label for="phoneContact">PHONE</label>
+        <input type="checkbox" name="contact" id="noneContact" value="none"/>
+        <label for="noneContact">NONE</label>
+        <br>
+        <br>
+        <label for="browser">FAVOURITE BROWSER:</label>
+        <input list="browsers" name="browser" id="browser"/>
+        <datalist id="browsers">
+            <option value="Chrome">Chrome</option>
+            <option value="Firefox">Firefox</option>
+            <option value="Brave">Brave</option>
+            <option value="Safari">Safari</option>
+            <option value="Edge">Edge</option>
+        </datalist>
+        <br>
+        <br>
+        <label for="profilePic">UPLOAD A PROFILE PICTURE:</label>
+        <input type="file" name="profilePic" id="profilePic"/>
+        <br>
+        <br>
+        <label for="tech knowledge">TECHNICAL KNOWLEDGE:</label>
+        <input type="range" name="tech knowledge" id="tech knowledge" oninput="output.value=this.value"/>
+        <output name="output" for="techSavvy">5</output>
+        <br>
+        <br>
+        <button type="correct">CORRECT</button>
+    </fieldset>
+    <fieldset>
+        <legend><h2><b>Feedback</b></h2></legend>
+        <label for="comments">FEEDBACK FORM:</label>
+        <textarea type="comments" name="comments" id="comments" rows="4" cols="50"></textarea>
+        <br>
+        <br>
+        <button type="correct">CORRECT</button>
+    </fieldset>
+    <br>
+    <br>
+    <button type="submit">SUBMIT</button>
+    <button type="reset">RESET</button>
+</fieldset> 
+    </form>
+</body>
+</html>
+
+        
